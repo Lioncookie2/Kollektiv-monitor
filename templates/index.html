@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kollektivtrafikk | Sanntidsovervåkning</title>
+    <link href="/static/static.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-content">
+            <button id="aboutBtn" class="nav-button">
+                <i class="fas fa-info-circle"></i> Om Oss
+            </button>
+        </div>
+    </nav>
+
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="about-section">
+                <h2><i class="fas fa-user-circle"></i> Om Meg</h2>
+                <p>Hei! Jeg er Sebastian, en 20 år gammel teknologientusiast og daglig leder i MilesTech AS. 
+                   Min visjon er å bruke teknologi for å skape positive endringer i samfunnet.</p>
+                
+                <h2><i class="fas fa-lightbulb"></i> Prosjektets Formål</h2>
+                <p>Dette prosjektet ble ikke skapt for å kritisere kollektivtransporten, men for å visualisere 
+                   sanntidsdata på en måte som kan bidra til konstruktiv dialog om forbedringer. Målet er å være 
+                   en "eye-opener" som kan motivere til økt fokus på kollektivtransportens punktlighet og kvalitet.</p>
+                
+                <h2><i class="fas fa-code"></i> Teknisk Innsikt</h2>
+                <p>Systemet er bygget på en moderne teknologistakk som inkluderer:</p>
+                <ul>
+                    <li>Sanntids datainnhenting fra Entur's API</li>
+                    <li>Avansert databehandling og analyse</li>
+                    <li>Visualisering av forsinkelsesmønstre</li>
+                    <li>Automatisk oppdatering hvert minutt</li>
+                </ul>
+                
+                <h2><i class="fas fa-chart-line"></i> Fremtidsvisjon</h2>
+                <p>Vi jobber kontinuerlig med å utvide funksjonaliteten og forbedre brukeropplevelsen. 
+                   Målet er å skape et verktøy som kan bidra til bedre beslutninger innen kollektivtransport.</p>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <i class="fas fa-train-subway"></i>
+        Sanntidsovervåkning av kollektivtrafikk
+    </header>
+
+    <div class="container">
+        <div class="grid stats-grid">
+            <div class="card stat-card">
+                <i class="fas fa-route"></i>
+                <h2>Aktive avganger</h2>
+                <p id="totalTrips">0</p>
+                <span class="stat-label">totalt</span>
+            </div>
+            <div class="card stat-card">
+                <i class="fas fa-clock"></i>
+                <h2>Gjennomsnittlig forsinkelse</h2>
+                <p id="averageDelay">0 minutter</p>
+                <span class="stat-label">siste time</span>
+            </div>
+            <div class="card stat-card">
+                <i class="fas fa-check-circle"></i>
+                <h2>Punktlighet</h2>
+                <p id="punctuality">0%</p>
+                <span class="stat-label">i rute</span>
+            </div>
+            <div class="card stat-card">
+                <i class="fas fa-calendar"></i>
+                <h2>Totalt i 2025</h2>
+                <p id="total2025">0</p>
+                <span class="stat-label">antall forsinkelser</span>
+            </div>
+        </div>
+
+        <div class="filter-buttons">
+            <button data-filter="all" class="active">
+                <i class="fas fa-globe"></i> Alle transportmidler
+            </button>
+            <button data-filter="bus">
+                <i class="fas fa-bus"></i> Buss
+            </button>
+            <button data-filter="rail">
+                <i class="fas fa-train"></i> Tog
+            </button>
+            <button data-filter="tram">
+                <i class="fas fa-tram"></i> Trikk
+            </button>
+        </div>    
+
+        <div class="grid content-grid">
+            <div class="card chart-card">
+                <h2><i class="fas fa-chart-bar"></i> Forsinkelsesfordeling</h2>
+                <canvas id="delayChart"></canvas>
+            </div>
+            <div class="card table-card">
+                <h2><i class="fas fa-exclamation-circle"></i> Største forsinkelser nå</h2>
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="sortable" data-sort="transport">TYPE</th>
+                                <th class="sortable" data-sort="line">LINJE</th>
+                                <th class="sortable" data-sort="station">STASJON</th>
+                                <th class="sortable" data-sort="delay">FORSINKELSE</th>
+                                <th class="sortable" data-sort="time">TIDSPUNKT</th>
+                            </tr>
+                        </thead>
+                        <tbody id="delayTable"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Historisk graf-seksjon -->
+        <div class="grid">
+            <div class="card chart-card">
+                <h2><i class="fas fa-calendar-alt"></i> Historisk statistikk (siste 7 dager)</h2>
+                <canvas id="historyChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            <i class="fas fa-code"></i> Utviklet av <a href="https://milestech.no" target="_blank">MilesTech AS</a> | 
+            Data fra <a href="https://entur.no" target="_blank">Entur</a>
+        </p>
+    </footer>
+
+    <script src="/static/dashboard.js"></script>
+</body>
+</html>
