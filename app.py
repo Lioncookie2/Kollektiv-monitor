@@ -398,6 +398,7 @@ def stats():
 # ----------------------------------------------------------------------
 @app.route("/total_2025/<transport>")
 def total_2025(transport):
+    print("=== /total_2025 route triggered with transport =", transport)
     """
     transport kan være 'all', 'bus', 'rail', 'tram'.
     'all' -> summér alt i daily_history for 2025,
