@@ -15,10 +15,12 @@ import os
 API_URL = "https://api.entur.io/realtime/v1/rest/vm"
 API_HEADERS = {"ET-Client-Name": "kollektiv-forsinkelser", "Accept": "application/xml"}
 
-DATABASE = "train_delays.db"
-FETCH_INTERVAL = 90  # sekunder mellom hver API-henting
+DATABASE = "train_delays2.db"
+FETCH_INTERVAL = 60  # sekunder mellom hver API-henting
 
 app = Flask(__name__)
+
+current_day = datetime.date.today()
 
 logging.basicConfig(level=logging.INFO, filename="fetch_log.log", filemode="a",
                     format="%(asctime)s - %(levelname)s - %(message)s")
@@ -277,7 +279,7 @@ def save_delays(delays):
 # ----------------------------------------------------------------------
 def start_background_job():
     global current_day
-
+    print("Starter background thread...")
     while True:
         try:
             # 1) Hent og lagre dagens forsinkelser
@@ -315,6 +317,8 @@ def daily_stats():
         LIMIT 7
     """)
     rows = cursor.fetchall()
+    print(cursor.fetchall())
+    print(rows)
     conn.close()
 
     # Snu rekkefølgen om du vil ha eldste først
@@ -399,37 +403,33 @@ def stats():
 @app.route("/total_2025/<transport>")
 def total_2025(transport):
     print("=== /total_2025 route triggered with transport =", transport)
-    """
-    transport kan være 'all', 'bus', 'rail', 'tram'.
-    'all' -> summér alt i daily_history for 2025,
-    ellers filtrér på transport-kolonnen.
-    """
-    conn = sqlite3.connect(DATABASE)
-    cursor = conn.cursor()
+    try:
+        conn = sqlite3.connect(DATABASE)
+        cursor = conn.cursor()
 
-    # Hent sum av total_delays for hele 2025
-    if transport == "all":
-        cursor.execute("""
-            SELECT SUM(total_delays)
-            FROM daily_history
-            WHERE date >= '2025-01-01' AND date <= '2025-12-31'
-        """)
-    else:
-        cursor.execute("""
-            SELECT SUM(total_delays)
-            FROM daily_history
-            WHERE date >= '2025-01-01' AND date <= '2025-12-31'
-              AND transport = ?
-        """, (transport,))
+        if transport == "all":
+            cursor.execute("""
+                SELECT SUM(total_delays)
+                FROM daily_history
+                WHERE date >= '2025-01-01' AND date <= '2025-12-31'
+            """)
+        else:
+            cursor.execute("""
+                SELECT SUM(total_delays)
+                FROM daily_history
+                WHERE date >= '2025-01-01' AND date <= '2025-12-31'
+                  AND transport = ?
+            """, (transport,))
 
-    row = cursor.fetchone()
-    total_count = row[0] if row and row[0] else 0
-    conn.close()
+        row = cursor.fetchone()
+        total_count = row[0] if row and row[0] else 0
 
-    return jsonify({
-        "transport": transport,
-        "total_2025": total_count
-    })
+        conn.close()
+        return jsonify({"transport": transport, "total_2025": total_count})
+
+    except Exception as e:
+        print(f"Feil i total_2025({transport}):", e)
+        return jsonify({"error": str(e)}), 500
 
 
 # ----------------------------------------------------------------------

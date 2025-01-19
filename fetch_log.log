@@ -1095,3 +1095,420 @@
 2025-01-19 15:36:10,300 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2025-01-19 15:36:10,300 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-19 18:42:04,054 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.99:5000
+2025-01-19 18:42:04,054 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-19 18:42:08,481 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:42:09,062 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:09] "GET / HTTP/1.1" 200 -
+2025-01-19 18:42:09,135 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:09] "GET /static/static.css HTTP/1.1" 200 -
+2025-01-19 18:42:09,137 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:09] "GET /static/dashboard.js HTTP/1.1" 200 -
+2025-01-19 18:42:09,155 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:09] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 18:42:09,156 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:09] "GET /daily_stats HTTP/1.1" 200 -
+2025-01-19 18:42:09,193 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:09] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:42:18,568 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:42:18,569 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:42:22,288 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:22] "[35m[1mGET /total_2025/bus HTTP/1.1[0m" 500 -
+2025-01-19 18:42:22,315 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:22] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:42:22,682 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:22] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 18:42:22,708 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:22] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:42:28,663 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:42:28,663 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:42:38,736 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:42:38,736 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:42:39,182 - INFO - 127.0.0.1 - - [19/Jan/2025 18:42:39] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:42:48,809 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:42:48,810 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:43:03,052 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:43:09,622 - INFO - 127.0.0.1 - - [19/Jan/2025 18:43:09] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:43:17,400 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:43:27,489 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:43:27,490 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:43:37,586 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:43:37,587 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:43:39,639 - INFO - 127.0.0.1 - - [19/Jan/2025 18:43:39] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:43:47,673 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:43:47,674 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:43:57,777 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:43:57,777 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:54:35,193 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.99:5000
+2025-01-19 18:54:35,193 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-19 18:54:35,266 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:54:35,267 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:54:45,632 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:54:45,633 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:54:52,884 - INFO - 127.0.0.1 - - [19/Jan/2025 18:54:52] "GET / HTTP/1.1" 200 -
+2025-01-19 18:54:52,957 - INFO - 127.0.0.1 - - [19/Jan/2025 18:54:52] "[36mGET /static/static.css HTTP/1.1[0m" 304 -
+2025-01-19 18:54:52,969 - INFO - 127.0.0.1 - - [19/Jan/2025 18:54:52] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-19 18:54:53,000 - INFO - 127.0.0.1 - - [19/Jan/2025 18:54:53] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 18:54:53,000 - INFO - 127.0.0.1 - - [19/Jan/2025 18:54:53] "GET /daily_stats HTTP/1.1" 200 -
+2025-01-19 18:54:53,040 - INFO - 127.0.0.1 - - [19/Jan/2025 18:54:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:54:55,705 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:54:55,706 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:55:10,799 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:55:14,465 - INFO - 127.0.0.1 - - [19/Jan/2025 18:55:14] "[35m[1mGET /total_2025/bus HTTP/1.1[0m" 500 -
+2025-01-19 18:55:14,493 - INFO - 127.0.0.1 - - [19/Jan/2025 18:55:14] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:55:14,894 - INFO - 127.0.0.1 - - [19/Jan/2025 18:55:14] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 18:55:14,925 - INFO - 127.0.0.1 - - [19/Jan/2025 18:55:14] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:55:23,034 - INFO - 127.0.0.1 - - [19/Jan/2025 18:55:23] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:55:25,175 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:55:35,248 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:55:35,249 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:55:45,323 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:55:45,324 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:55:53,626 - INFO - 127.0.0.1 - - [19/Jan/2025 18:55:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:55:55,395 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:55:55,396 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:56:09,765 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:56:19,844 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:56:19,844 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:56:23,628 - INFO - 127.0.0.1 - - [19/Jan/2025 18:56:23] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:56:29,917 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:56:29,918 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:56:40,016 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:56:40,017 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:56:50,101 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:56:50,101 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:56:53,619 - INFO - 127.0.0.1 - - [19/Jan/2025 18:56:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:57:04,605 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:57:19,696 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:57:29,795 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:57:29,796 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:57:39,882 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:57:39,883 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:57:49,957 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:57:49,958 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:58:05,167 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:58:15,239 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:58:15,239 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:58:15,633 - INFO - 127.0.0.1 - - [19/Jan/2025 18:58:15] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:58:24,438 - INFO - 127.0.0.1 - - [19/Jan/2025 18:58:24] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:58:25,347 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:58:25,348 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:58:35,432 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:58:35,433 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:58:45,505 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:58:45,506 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:58:53,624 - INFO - 127.0.0.1 - - [19/Jan/2025 18:58:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:58:55,578 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:58:55,578 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:59:10,458 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:59:23,625 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:23] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:24,770 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 18:59:34,846 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:59:34,846 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:59:40,409 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:40] "[35m[1mGET /total_2025/tram HTTP/1.1[0m" 500 -
+2025-01-19 18:59:40,443 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:40] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:44,480 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:44] "[35m[1mGET /total_2025/rail HTTP/1.1[0m" 500 -
+2025-01-19 18:59:44,508 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:44] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:44,842 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:44] "[35m[1mGET /total_2025/bus HTTP/1.1[0m" 500 -
+2025-01-19 18:59:44,872 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:44] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:44,922 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:59:44,923 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:59:45,254 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:45] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 18:59:45,286 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:45] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:46,241 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:46] "[35m[1mGET /total_2025/bus HTTP/1.1[0m" 500 -
+2025-01-19 18:59:46,269 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:46] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:47,642 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:47] "[35m[1mGET /total_2025/rail HTTP/1.1[0m" 500 -
+2025-01-19 18:59:47,670 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:47] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:49,367 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:49] "[35m[1mGET /total_2025/tram HTTP/1.1[0m" 500 -
+2025-01-19 18:59:49,394 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:49] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:50,239 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:50] "[35m[1mGET /total_2025/rail HTTP/1.1[0m" 500 -
+2025-01-19 18:59:50,264 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:50] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:51,230 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:51] "[35m[1mGET /total_2025/bus HTTP/1.1[0m" 500 -
+2025-01-19 18:59:51,257 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:51] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:51,832 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:51] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 18:59:51,860 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:51] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:53,029 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:54,996 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 18:59:54,997 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 18:59:55,563 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:55] "[35m[1mGET /total_2025/rail HTTP/1.1[0m" 500 -
+2025-01-19 18:59:55,588 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:55] "GET /delays HTTP/1.1" 200 -
+2025-01-19 18:59:56,640 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:56] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 18:59:56,665 - INFO - 127.0.0.1 - - [19/Jan/2025 18:59:56] "GET /delays HTTP/1.1" 200 -
+2025-01-19 19:00:09,924 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 19:00:20,028 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:00:20,029 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 19:00:23,032 - INFO - 127.0.0.1 - - [19/Jan/2025 19:00:23] "GET /delays HTTP/1.1" 200 -
+2025-01-19 19:00:30,107 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:00:30,107 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 19:00:40,193 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:00:40,194 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 19:00:50,288 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:00:50,288 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 19:00:53,036 - INFO - 127.0.0.1 - - [19/Jan/2025 19:00:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 19:01:05,375 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 19:01:20,570 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 19:01:23,029 - INFO - 127.0.0.1 - - [19/Jan/2025 19:01:23] "GET /delays HTTP/1.1" 200 -
+2025-01-19 19:01:30,659 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:01:30,660 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 19:01:40,749 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:01:40,750 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 19:01:50,845 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:01:50,845 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 19:01:53,032 - INFO - 127.0.0.1 - - [19/Jan/2025 19:01:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 19:02:05,654 - ERROR - Bakgrunnsjobb feilet: ON CONFLICT clause does not match any PRIMARY KEY or UNIQUE constraint
+2025-01-19 19:02:15,746 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:02:15,747 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 19:02:23,028 - INFO - 127.0.0.1 - - [19/Jan/2025 19:02:23] "GET /delays HTTP/1.1" 200 -
+2025-01-19 19:02:25,838 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:02:25,839 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 19:02:35,924 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:02:35,925 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 19:02:46,000 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 19:02:46,001 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:19:06,192 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.99:5000
+2025-01-19 22:19:06,192 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-19 22:19:07,962 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:07] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:19:09,417 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:09] "GET / HTTP/1.1" 200 -
+2025-01-19 22:19:09,468 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:09] "[36mGET /static/static.css HTTP/1.1[0m" 304 -
+2025-01-19 22:19:09,475 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:09] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-19 22:19:09,497 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:09] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:19:09,497 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:09] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:19:09,497 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:09] "GET /daily_stats HTTP/1.1" 200 -
+2025-01-19 22:19:10,730 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:19:13,511 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:13] "GET /total_2025/bus HTTP/1.1" 200 -
+2025-01-19 22:19:13,512 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:13] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:19:13,900 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:13] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:19:13,901 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:13] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:19:20,818 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:19:20,819 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:19:30,901 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:19:30,902 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:19:39,492 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:39] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:19:40,989 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:19:40,990 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:19:51,061 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:19:51,062 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:19:53,903 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:53] "GET / HTTP/1.1" 200 -
+2025-01-19 22:19:53,920 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:53] "[36mGET /static/static.css HTTP/1.1[0m" 304 -
+2025-01-19 22:19:53,923 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:53] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-19 22:19:53,940 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:53] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:19:53,940 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:53] "GET /daily_stats HTTP/1.1" 200 -
+2025-01-19 22:19:53,941 - INFO - 127.0.0.1 - - [19/Jan/2025 22:19:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:20:04,223 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:04] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:20:04,223 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:04] "GET /total_2025/tram HTTP/1.1" 200 -
+2025-01-19 22:20:05,065 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:05] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:20:05,065 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:05] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:20:05,757 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:20:20,473 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:20:23,937 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:23] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:20:28,044 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:28] "GET /total_2025/tram HTTP/1.1" 200 -
+2025-01-19 22:20:28,045 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:28] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:20:30,545 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:20:30,546 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:20:39,359 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:39] "GET /total_2025/rail HTTP/1.1" 200 -
+2025-01-19 22:20:39,360 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:39] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:20:39,999 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:39] "GET /total_2025/bus HTTP/1.1" 200 -
+2025-01-19 22:20:40,000 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:40] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:20:40,626 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:20:40,627 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:20:42,519 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:42] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:20:42,520 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:42] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:20:50,718 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:20:50,719 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:20:53,944 - INFO - 127.0.0.1 - - [19/Jan/2025 22:20:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:21:05,298 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:21:15,417 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:21:15,419 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:21:23,938 - INFO - 127.0.0.1 - - [19/Jan/2025 22:21:23] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:21:25,491 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:21:25,492 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:21:35,589 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:21:35,589 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:21:45,682 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:21:45,683 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:21:53,920 - INFO - 127.0.0.1 - - [19/Jan/2025 22:21:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:21:55,766 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:21:55,767 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:22:10,413 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:22:23,922 - INFO - 127.0.0.1 - - [19/Jan/2025 22:22:23] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:22:25,353 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:22:35,435 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:22:35,437 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:22:45,510 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:22:45,511 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:22:53,918 - INFO - 127.0.0.1 - - [19/Jan/2025 22:22:53] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:22:55,577 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:22:55,578 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:23:05,648 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:23:05,648 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:23:15,721 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:23:15,722 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:23:24,277 - INFO - 127.0.0.1 - - [19/Jan/2025 22:23:24] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:23:25,791 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:23:25,792 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:23:35,861 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:23:35,862 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:23:45,945 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:23:45,945 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:23:54,264 - INFO - 127.0.0.1 - - [19/Jan/2025 22:23:54] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:23:56,016 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:23:56,017 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:24:10,668 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:24:24,262 - INFO - 127.0.0.1 - - [19/Jan/2025 22:24:24] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:24:25,141 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:24:35,225 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:24:35,227 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:24:45,317 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:24:45,318 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:24:54,254 - INFO - 127.0.0.1 - - [19/Jan/2025 22:24:54] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:24:55,407 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:24:55,408 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:25:00,454 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:00] "GET / HTTP/1.1" 200 -
+2025-01-19 22:25:00,468 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:00] "[36mGET /static/static.css HTTP/1.1[0m" 304 -
+2025-01-19 22:25:00,469 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:00] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-19 22:25:00,530 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:00] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:25:00,530 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:00] "GET /daily_stats HTTP/1.1" 200 -
+2025-01-19 22:25:00,532 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:25:01,512 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:01] "GET /total_2025/bus HTTP/1.1" 200 -
+2025-01-19 22:25:01,513 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:01] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:25:02,206 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:02] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:25:02,208 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:02] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:25:02,824 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:02] "GET /total_2025/bus HTTP/1.1" 200 -
+2025-01-19 22:25:02,825 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:02] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:25:03,320 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:03] "GET /total_2025/tram HTTP/1.1" 200 -
+2025-01-19 22:25:03,321 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:03] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:25:04,053 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:04] "GET /total_2025/bus HTTP/1.1" 200 -
+2025-01-19 22:25:04,055 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:04] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:25:04,456 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:04] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:25:04,458 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:04] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:25:09,997 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:25:20,076 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:25:20,077 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:25:30,144 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:25:30,144 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:25:31,246 - INFO - 127.0.0.1 - - [19/Jan/2025 22:25:31] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:25:40,213 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:25:40,214 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:25:50,289 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:25:50,289 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:26:01,250 - INFO - 127.0.0.1 - - [19/Jan/2025 22:26:01] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:26:04,922 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:26:19,534 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:26:29,619 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:26:29,620 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:26:31,234 - INFO - 127.0.0.1 - - [19/Jan/2025 22:26:31] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:26:39,691 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:26:39,692 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:26:49,782 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:26:49,783 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:27:01,238 - INFO - 127.0.0.1 - - [19/Jan/2025 22:27:01] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:27:04,410 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:27:14,481 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:27:14,483 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:27:24,553 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:27:24,553 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:27:34,622 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:27:34,623 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:27:45,339 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:27:45,340 - ERROR - Bakgrunnsjobb feilet: name 'current_day' is not defined
+2025-01-19 22:27:51,848 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.99:5000
+2025-01-19 22:27:51,848 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-19 22:27:51,913 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:28:15,223 - INFO - 127.0.0.1 - - [19/Jan/2025 22:28:15] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:29:15,208 - INFO - 127.0.0.1 - - [19/Jan/2025 22:29:15] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:29:21,992 - ERROR - API-henting feilet: 429 Client Error: Too Many Requests for url: https://api.entur.io/realtime/v1/rest/vm
+2025-01-19 22:30:15,198 - INFO - 127.0.0.1 - - [19/Jan/2025 22:30:15] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:30:40,356 - INFO - 127.0.0.1 - - [19/Jan/2025 22:30:40] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:30:41,857 - INFO - 127.0.0.1 - - [19/Jan/2025 22:30:41] "GET /total_2025/bus HTTP/1.1" 200 -
+2025-01-19 22:30:41,858 - INFO - 127.0.0.1 - - [19/Jan/2025 22:30:41] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:30:42,391 - INFO - 127.0.0.1 - - [19/Jan/2025 22:30:42] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:30:42,392 - INFO - 127.0.0.1 - - [19/Jan/2025 22:30:42] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:31:00,466 - INFO - 127.0.0.1 - - [19/Jan/2025 22:31:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:31:08,568 - INFO - 127.0.0.1 - - [19/Jan/2025 22:31:08] "GET /total_2025/bus HTTP/1.1" 200 -
+2025-01-19 22:31:08,570 - INFO - 127.0.0.1 - - [19/Jan/2025 22:31:08] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:31:10,183 - INFO - 127.0.0.1 - - [19/Jan/2025 22:31:10] "GET /total_2025/tram HTTP/1.1" 200 -
+2025-01-19 22:31:10,186 - INFO - 127.0.0.1 - - [19/Jan/2025 22:31:10] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:31:15,905 - INFO - 127.0.0.1 - - [19/Jan/2025 22:31:15] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:31:15,907 - INFO - 127.0.0.1 - - [19/Jan/2025 22:31:15] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:31:30,470 - INFO - 127.0.0.1 - - [19/Jan/2025 22:31:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:32:00,456 - INFO - 127.0.0.1 - - [19/Jan/2025 22:32:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:32:30,448 - INFO - 127.0.0.1 - - [19/Jan/2025 22:32:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:33:00,446 - INFO - 127.0.0.1 - - [19/Jan/2025 22:33:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:33:30,442 - INFO - 127.0.0.1 - - [19/Jan/2025 22:33:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:34:00,446 - INFO - 127.0.0.1 - - [19/Jan/2025 22:34:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:34:30,435 - INFO - 127.0.0.1 - - [19/Jan/2025 22:34:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:35:00,434 - INFO - 127.0.0.1 - - [19/Jan/2025 22:35:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:35:30,432 - INFO - 127.0.0.1 - - [19/Jan/2025 22:35:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:36:00,429 - INFO - 127.0.0.1 - - [19/Jan/2025 22:36:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:36:30,414 - INFO - 127.0.0.1 - - [19/Jan/2025 22:36:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:37:00,412 - INFO - 127.0.0.1 - - [19/Jan/2025 22:37:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:37:30,406 - INFO - 127.0.0.1 - - [19/Jan/2025 22:37:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:38:00,399 - INFO - 127.0.0.1 - - [19/Jan/2025 22:38:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:38:30,399 - INFO - 127.0.0.1 - - [19/Jan/2025 22:38:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:39:00,403 - INFO - 127.0.0.1 - - [19/Jan/2025 22:39:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:39:30,393 - INFO - 127.0.0.1 - - [19/Jan/2025 22:39:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:40:00,398 - INFO - 127.0.0.1 - - [19/Jan/2025 22:40:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:40:30,382 - INFO - 127.0.0.1 - - [19/Jan/2025 22:40:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:41:00,379 - INFO - 127.0.0.1 - - [19/Jan/2025 22:41:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:41:30,376 - INFO - 127.0.0.1 - - [19/Jan/2025 22:41:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:42:00,369 - INFO - 127.0.0.1 - - [19/Jan/2025 22:42:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:42:30,371 - INFO - 127.0.0.1 - - [19/Jan/2025 22:42:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:43:00,366 - INFO - 127.0.0.1 - - [19/Jan/2025 22:43:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:43:30,362 - INFO - 127.0.0.1 - - [19/Jan/2025 22:43:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:44:00,357 - INFO - 127.0.0.1 - - [19/Jan/2025 22:44:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:44:30,349 - INFO - 127.0.0.1 - - [19/Jan/2025 22:44:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:45:00,358 - INFO - 127.0.0.1 - - [19/Jan/2025 22:45:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:45:30,350 - INFO - 127.0.0.1 - - [19/Jan/2025 22:45:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:46:00,349 - INFO - 127.0.0.1 - - [19/Jan/2025 22:46:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:46:11,616 - INFO - 127.0.0.1 - - [19/Jan/2025 22:46:11] "[36mGET /static/static.css HTTP/1.1[0m" 304 -
+2025-01-19 22:49:47,885 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.99:5000
+2025-01-19 22:49:47,885 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-19 22:49:56,606 - INFO - 127.0.0.1 - - [19/Jan/2025 22:49:56] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:49:59,975 - INFO - 127.0.0.1 - - [19/Jan/2025 22:49:59] "GET / HTTP/1.1" 200 -
+2025-01-19 22:50:00,029 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:00] "[36mGET /static/static.css HTTP/1.1[0m" 304 -
+2025-01-19 22:50:00,034 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:00] "[36mGET /static/dashboard.js HTTP/1.1[0m" 304 -
+2025-01-19 22:50:00,057 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:00] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:50:00,058 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:00] "GET /daily_stats HTTP/1.1" 200 -
+2025-01-19 22:50:00,059 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:50:00,989 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:00] "GET /total_2025/bus HTTP/1.1" 200 -
+2025-01-19 22:50:00,990 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:50:01,475 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:01] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:50:01,476 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:01] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:50:04,897 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:04] "GET /total_2025/tram HTTP/1.1" 200 -
+2025-01-19 22:50:04,898 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:04] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:50:31,021 - INFO - 127.0.0.1 - - [19/Jan/2025 22:50:31] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:51:01,022 - INFO - 127.0.0.1 - - [19/Jan/2025 22:51:01] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:51:31,014 - INFO - 127.0.0.1 - - [19/Jan/2025 22:51:31] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:51:49,537 - INFO - 127.0.0.1 - - [19/Jan/2025 22:51:49] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:51:49,538 - INFO - 127.0.0.1 - - [19/Jan/2025 22:51:49] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:52:00,043 - INFO - 127.0.0.1 - - [19/Jan/2025 22:52:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:52:00,712 - INFO - 127.0.0.1 - - [19/Jan/2025 22:52:00] "GET /total_2025/tram HTTP/1.1" 200 -
+2025-01-19 22:52:00,712 - INFO - 127.0.0.1 - - [19/Jan/2025 22:52:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:52:08,191 - INFO - 127.0.0.1 - - [19/Jan/2025 22:52:08] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:52:08,192 - INFO - 127.0.0.1 - - [19/Jan/2025 22:52:08] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:52:30,040 - INFO - 127.0.0.1 - - [19/Jan/2025 22:52:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:53:00,044 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:00] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:53:28,842 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:28] "[36mGET /static/static.css HTTP/1.1[0m" 304 -
+2025-01-19 22:53:30,035 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:30] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:53:38,079 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:38] "GET /total_2025/tram HTTP/1.1" 200 -
+2025-01-19 22:53:38,080 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:38] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:53:39,997 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:39] "GET /total_2025/rail HTTP/1.1" 200 -
+2025-01-19 22:53:39,998 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:39] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:53:40,536 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:40] "GET /total_2025/bus HTTP/1.1" 200 -
+2025-01-19 22:53:40,537 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:40] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:53:41,066 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:41] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:53:41,067 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:41] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:53:43,088 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:43] "GET /total_2025/bus HTTP/1.1" 200 -
+2025-01-19 22:53:43,090 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:43] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:53:43,792 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:43] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:53:43,793 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:43] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:53:44,330 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:44] "GET /total_2025/tram HTTP/1.1" 200 -
+2025-01-19 22:53:44,331 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:44] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:53:45,113 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:45] "GET /total_2025/all HTTP/1.1" 200 -
+2025-01-19 22:53:45,114 - INFO - 127.0.0.1 - - [19/Jan/2025 22:53:45] "GET /delays HTTP/1.1" 200 -
+2025-01-19 22:54:01,002 - INFO - 127.0.0.1 - - [19/Jan/2025 22:54:01] "GET /delays HTTP/1.1" 200 -
