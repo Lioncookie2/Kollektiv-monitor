@@ -1,0 +1,15 @@
+venv-test/
+__pycache__/
+*.pyc
+*.db
+*.log
+*.txt
+*.json
+*.csv
+*.xlsx
+*.xls
+*.pdf
+*.docx
+*.pptx
+*.env
+    

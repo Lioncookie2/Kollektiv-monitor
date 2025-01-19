@@ -6,6 +6,8 @@ from time import sleep
 import xml.etree.ElementTree as ET
 import logging
 import datetime
+import os
+
 
 # ----------------------------------------------------------------------
 # Konfigurasjon
@@ -442,5 +444,11 @@ def index():
 # ----------------------------------------------------------------------
 if __name__ == "__main__":
     init_db()
+    # Start bakgrunnstråd
     threading.Thread(target=start_background_job, daemon=True).start()
-    app.run(debug=True, use_reloader=False)
+
+    # HENT PORT-FRA MILJØVARIABEL => Standard 5000 hvis den ikke finnes
+    port = int(os.environ.get("PORT", 5000))
+
+    # Kjør på "0.0.0.0" slik at Render kan exponse den
+    app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False)
